@@ -1,0 +1,43 @@
+
+/* input :required{
+    background-color: aqua;
+    
+}
+input :focus{
+    /* background-color: blueviolet; */
+
+    /* span:first-of-type{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    input :valid{
+        border: 2px;color: green;
+    }
+    input :invalid{
+        border: 2px ;color: red;
+    } */
+    p::first-line{
+        color: blue;
+        font-size: 20px;
+    }
+    p::first-letter{
+        font-size: 40px;
+    }
+
+    h1::before{
+        content:url("download.png") 
+
+    }
+    h1::after{
+        content:url("download.png");
+
+    }
+::selection{
+    color: brown;
+    background-color: blue;
+}
+div{
+    opacity:0,5
+}
